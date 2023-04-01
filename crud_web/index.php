@@ -83,7 +83,7 @@
           ?>
           <tr>
             <td><?php echo $no; ?></td>
-            <td><?php echo $row['Nama Produk']; ?></td>
+            <td><?php echo $row['nama_produk']; ?></td>
             <td><?php echo substr($row['deskripsi'], 0, 20); ?>...</td>
             <td>Rp<?php echo number_format($row['harga_beli'], 0, ',', ','); ?></td>
             <td>Rp<?php echo number_format($row['harga_jual'], 0, ',', ','); ?></td>
